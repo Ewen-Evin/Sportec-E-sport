@@ -1,9 +1,9 @@
-# Bloquer l'accès au dossier config
-<Directory "/var/www/html/config">
-    Require all denied
-</Directory>
+RewriteEngine On
 
-# Bloquer les fichiers sensibles
-<FilesMatch "(^\.env|config\.php|\.ini|\.log)">
+# Bloquer accès au dossier config
+RewriteRule ^config(/|$) - [F,L]
+
+# Bloquer fichiers sensibles
+<FilesMatch "(config\.php|\.env|\.ini|\.log)">
     Require all denied
 </FilesMatch>
