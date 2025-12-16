@@ -1,0 +1,9 @@
+# Bloquer l'accès au dossier config
+<Directory "/var/www/html/config">
+    Require all denied
+</Directory>
+
+# Bloquer les fichiers sensibles
+<FilesMatch "(^\.env|config\.php|\.ini|\.log)">
+    Require all denied
+</FilesMatch>
