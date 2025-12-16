@@ -1,5 +1,5 @@
 <?php
-require_once '/home/ewenevh/config/config.php';
+require_once '/config/config.php';
 
 // Vérification manuelle de la connexion
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {

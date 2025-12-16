@@ -1,6 +1,6 @@
 <?php
 // index.php
-require_once '/home/ewenevh/config/config.php';
+require_once '/config/config.php';
 
 // Récupération des données depuis la base de données
 try {

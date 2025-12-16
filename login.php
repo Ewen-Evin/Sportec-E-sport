@@ -9,7 +9,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true
 $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    require_once '/home/ewenevh/config/config.php';
+    require_once '/config/config.php';
     
     $username = clean($_POST['username']);
     $password = $_POST['password'];

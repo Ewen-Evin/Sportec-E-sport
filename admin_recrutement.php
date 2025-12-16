@@ -1,5 +1,5 @@
 <?php
-require_once '/home/ewenevh/config/config.php';
+require_once '/config/config.php';
 
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
     header('Location: login.php');
