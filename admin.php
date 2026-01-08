@@ -219,6 +219,15 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
                 <p class="card-description">Gérer les statuts de recrutement par pôle</p>
                 <a href="admin_recrutement.php" class="btn">Gérer le recrutement</a>
             </div>
+
+            <div class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <h3 class="card-title">Gestion Administrateurs</h3>
+                <p class="card-description">Ajouter ou supprimer des administrateurs du site</p>
+                <a href="admin_admins.php" class="btn">Gérer les administrateurs</a>
+            </div>
         </div>
         
     </div>
