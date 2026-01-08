@@ -1799,7 +1799,6 @@ try {
                         <li><a href="#" class="nav-link" data-page="galerie">Photos</a></li>
                         <li><a href="#" class="nav-link" data-page="events">Events & Actualités</a></li>
                         <li><a href="#" class="nav-link" data-page="tv">SPORTEC Sim-Racing TV</a></li>
-                        <li><a href="forum/index.php" class="nav-link" target="_blank">Forum</a></li>
                         <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
                         <!-- Lien vers l'administration -->
                         <?php if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true): ?>
