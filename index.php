@@ -1953,11 +1953,6 @@ try {
                             <img src="./logos/portail-gt-esport.png" alt="Portail-GT-eSport">
                         </a>
                     </div>
-                    <div class="partenaire-logo">
-                        <a href="https://www.youtube.com/channel/UClqAOWd1ZapLETfCL58ooew" target="_blank">
-                            <img src="./logos/el-loco-tv.png" alt="El-Loco-TV">
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
